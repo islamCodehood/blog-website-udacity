@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  
+  font-family: 'Poppins', sans-serif;
+}
+.title{
+  font-family: 'Poltawski Nowy', serif;
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.header,
+.main,
+.footer {
+  padding: 18px;
+}
+
+.header,
+.footer {
+  color: #fff;
+}
+
+.header {
+  height: 80px;
+  background-color: #63acee;
+  display: grid;
+  /* grid-template-columns: 100%;
+  grid-template-rows: 50px 20px; */
+}
+.nav_menu_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .nav_menu_wrapper {
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.nav_menu_link {
+  padding: 6px 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #eee;
+  font-weight: 500;      
+}
+
+.nav_menu_link:hover {
+  color: #434343;
+}
+
+
+.main {
+  min-height: calc(100vh - 218px);
+}
+
+.footer {
+  height: 30px;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 14px;
+}
