@@ -1,0 +1,35 @@
+.main {
+  padding: 18px;
+  min-height: calc(100vh - 218px);
+  display: grid;
+  gap: 18px;
+  background-color: #fff;
+  align-items: start;
+}
+
+.card {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 170px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 118px 1fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_body_text_title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #3e3e3e;
+  text-shadow: rgba(0, 0)
+}
+
+.card_body_text span {
+  color: #63acee;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 4px;
+}

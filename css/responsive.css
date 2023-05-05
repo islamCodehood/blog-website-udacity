@@ -1,0 +1,43 @@
+@media screen and (min-width: 992px) {
+  .header {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .nav_menu_wrapper {
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .post_title,
+  .post_content {
+    padding: 18px 192px;
+  }
+
+  .post_title {  
+    height: 250px;
+  }
+
+  .post_title h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 18px 48px;
+    
+  }
+  .card {
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .card_body_text_title {
+    font-size: 28px;
+    
+  }
+}
